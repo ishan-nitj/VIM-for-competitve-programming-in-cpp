@@ -3,7 +3,8 @@
 1. Type vim .vimrc on terminal
 2. Copy this code and save
 3. After copying ,you will have the following commands:
- - Ctrl+r=>Compile and run your code
+ - Ctrl+r=>Compile and run your c++ code
+ - Ctrl+p=>Run your python code
  - Ctrl+Shift+t=>Indent your code
  - cm=>comment a section of lines
  - uc=>uncomment a section of lines

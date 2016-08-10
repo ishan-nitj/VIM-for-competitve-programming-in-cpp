@@ -16,6 +16,7 @@ syntax enable
 autocmd BufNewFile *.cpp :0r ~/.vim/cpp 
 autocmd BufNewFile *.cpp :w!
 map <C-r> :!g++ --std=c++0x -g  % && ./a.out <CR>
+nnoremap <buffer> <C-p> :exec '!python' shellescape(@%, 1)<cr>
 map <C-S-t> gg=G <CR>
 set number
 set lines=50     
